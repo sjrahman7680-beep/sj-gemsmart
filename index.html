@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>App</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      width: 100%;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    }
+    .toolbar {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      height: 40px;
+      padding: 0 12px;
+      box-sizing: border-box;
+      background: #f3f4f6;
+      border-bottom: 1px solid #d1d5db;
+      font-size: 14px;
+    }
+    .toolbar a {
+      color: #1a56db;
+      text-decoration: none;
+    }
+    .toolbar a:hover {
+      text-decoration: underline;
+    }
+    iframe {
+      display: block;
+      width: 100%;
+      height: calc(100% - 40px);
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="toolbar">
+    <a href="https://script.google.com/macros/s/AKfycbwWuE-CbuZsflS0OPlUGFks3cAySgVChcDmEhfzMxCWbGnsUQAkeYe1qddoxoeSRoff5g/exec" target="_blank" rel="noopener">Open in new tab</a>
+  </div>
+  <iframe
+    src="https://script.google.com/macros/s/AKfycbwWuE-CbuZsflS0OPlUGFks3cAySgVChcDmEhfzMxCWbGnsUQAkeYe1qddoxoeSRoff5g/exec"
+    allow="clipboard-read; clipboard-write"
+    title="Embedded app">
+  </iframe>
+</body>
+</html>
